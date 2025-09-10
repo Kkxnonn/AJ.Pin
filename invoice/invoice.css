@@ -1,0 +1,94 @@
+.h1 {
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  font-weight: bold;
+  height: 50px;
+  font-size: 65px;
+  font-family: open sans-serif;
+}
+
+.header2 {
+  font-weight: bold;
+  height: 50px;
+  font-size: 30px;
+  font-family: sans-serif;
+  border-collapse: collapse;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    font-size: 40px;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+td,
+th {
+  padding: 0.5rem 0.1rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+  padding-top: 15px;
+}
+
+.text-right2 {
+  text-align: right;
+  padding-top: 15px;
+  font-size: 75px;
+  font-weight: bold;
+  font-family: open sans;
+}
+
+.border-above-below {
+  border-bottom: 1px solid black;
+}
+
+.border-above-below2 {
+  border-bottom: 1px solid black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border-below {
+  border-bottom: 1px solid black;
+}
+
+.text-center2 {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  margin: 15px;
+  padding: 15px;
+  background-color: cornflowerblue;
+  position: fixed;
+}
+
+.body2 {
+  margin: 20px;
+  padding: 20px;
+}
+
+.hr1 {
+  border: 0;
+  height: 2px;
+  background-color: black;
+  width: 425px;
+  margin-left: auto;
+  margin-right: auto;
+}
