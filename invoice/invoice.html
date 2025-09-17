@@ -25,14 +25,25 @@
     <table>
         <tr>
             <td class="text-left" height="80px">
-                <b>ISSUED TO:</b><br>
-                Richard Sanches<br>
-                1234 Anywhere St., Any Cityt<br>
-            </td> <br>
+                <b>ISSUED TO:</b>
+                <br>
+                <span id="company-name" class="no-value">[COMPANY-NAME]</span><br>
+                <!-- Richard Sanches -->
+                <span id="company-address" class="no-value">[COMPANY-ADDRESS]</span><br>
+                <!-- 1234 Anywhere St., Any City -->
+            </td> 
+            
+            <br>
             <td class="text-right" height="80px">
                 <b>INVOICE NO: 01234 </b><br>
-                DATE: 11/02/2030 <br>
-                DUE DATE: 11/03/2030 <br>
+                <span id="date" class="no-value">
+                    [DATE]</span><br>
+                    <!-- DATE: 11/02/2030 -->
+
+                <span id="due-date" class="no-value">
+                    [DUE-DATE]</span><br>
+                    <!-- DUE DATE: 11/03/2030 -->
+
             </td> <br>
         </tr>
 
@@ -42,88 +53,130 @@
         <tr>
             <td class="text-left">
                 <b>PAY TO:</b> <br>
-                Borcele Bank <br>
-                Account Name: Adeline Palmerston <br>
-                Account No.: 0123 4567 8901 <br>
+                <span id="pay-to-company" class="no-value">
+                    [PAY-TO-COMPANY] </span><br>
+                    <!-- Borcele Bank -->
+
+                <span id="pay-to-name" class="no-value">
+                    [PAY-TO-NAME]</span><br>
+                    <!-- Account Name: Adeline Palmerston -->
+
+                <span id="pay-to-number" class="no-value">
+                    [PAY-TO-NUMBER]</span><br>
+                    <!-- Account No.: 0123 4567 8901 -->
             </td>
         </tr> <br>
     </table> <br>
+
     <br>
     <br>
 
     <table>
         <thead>
             <tr class="border-above-below">
-                <th class="border-above-below">DESCRIPTION</th>
-                <th class="border-above-below">UNIT PRICE</th>
-                <th class="border-above-below">QTY</th>
-                <th class="border-above-below">TOTAL</th>
+                <th id="description" class="no-value-border-above-below">DESCRIPTION</th>
+                <th id="description2" class="no-value-border-above-below">UNIT PRICE</th>
+                <th id="description3" class="no-value-border-above-below">QTY</th>
+                <th id="description4" class="no-value-border-above-below">TOTAL</th>
             </tr>
         </thead>
-    </table>
+        <!--items-->
 
-    <table>
-        <tbody class="border-above-below2">
+        <tbody id="table">
+            <!-- <tr><td class="no-value">[DATA]</td></tr> -->
+              
+            <!-- items -->
+                
             <tr>
-                <td class="text-left">Brand consultation</td>
+                <td class="text-left">
+                    <span id="brand-consultation" class="no-value">Brand consultation</span>
+                </td>
                 <td class="text-right">100</td>
                 <td class="text-right">1</td>
                 <td class="text-right">$100</td>
             </tr>
             <tr>
-                <td class="text-left">Logo design</td>
+                <td class="text-left">
+                    <span id="logo-design" class="no-value">Logo design</span>
+                </td>
                 <td class="text-right">100</td>
                 <td class="text-right">1</td>
                 <td class="text-right">$100</td>
             </tr>
             <tr>
-                <td class="text-left">Website design</td>
+                <td class="text-left">
+                    <span id="website-design" class="no-value">Website design</span>
+                </td>
                 <td class="text-right">100</td>
                 <td class="text-right">1</td>
                 <td class="text-right">$100</td>
             </tr>
             <tr>
-                <td class="text-left">Social media templates</td>
+                <td class="text-left">
+                    <span id="social-media-templates" class="no-value">Social media templates</span>
+                </td>
                 <td class="text-right">100</td>
                 <td class="text-right">1</td>
                 <td class="text-right">$100</td>
             </tr>
             <tr>
-                <td class="text-left">Brand photography</td>
+                <td class="text-left">
+                    <span id="brand-photography" class="no-value">Brand photography</span>
+                </td>
                 <td class="text-right">100</td>
                 <td class="text-right">1</td>
                 <td class="text-right">$100</td>
             </tr>
-            <tr>
-                <td class="text-left">Brand guide</td>
-                <td class="text-right">100</td>
-                <td class="text-right">1</td>
-                <td class="text-right">$100</td>
+            <tr class="border-above-below">
+                <td>
+                    <span id="Brand-guide" class="no-value">Brand guide</span>
+                </td>
+                <td class="border-above-below3">100</td>
+                <td class="border-above-below3">1</td>
+                <td class="border-above-below3">$100</td>
+            
             </tr>
-
-            </tr>
+            
+            </tr> 
+           
         </tbody>
 
+        <!--subtotal-->
+        
         <tr>
             <td class="text-left"><b>SUBTOTAL</b></td>
             <td colspan="3" class="text-right"><b>$400</b></td>
         </tr>
+        
+
+        <!--tax-->
+         
         <tr>
             <td colspan="3" class="text-right">TAX (10%)</td>
             <td class="text-right">$40</td>
         </tr>
+        
+
+        <!--total-->
+        
         <tr class="text-right">
             <td colspan="3" class="text-right"><b>TOTAL</b></td>
             <td class="text-right"><b>$440</b></td>
+        </tr>
+        
+
     </table>
     <!--Thank you-->
     <!--/header-->
 
     <footer>
-        <div>
+        <div> 
 
         </div>
     </footer>
+
+    <script src="./data.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>

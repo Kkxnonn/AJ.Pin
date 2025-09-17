@@ -53,12 +53,70 @@ th {
   font-family: open sans;
 }
 
+.no-value {
+  font-family: open sans;
+  color: red;
+}
+
+
+.no-value1 {
+  text-align: right;
+  font-family: open sans;
+  color: black;
+  border-bottom: 1px solid red;
+}
+
+.no-value2 {
+  font-family: open sans;
+  color: red;
+  border-bottom: 1px solid red;
+}
+
+.no-value3 {
+  font-family: open sans;
+}
+
+
+/* .no-value4 {
+  font-family: open sans;
+  color: red;
+  
+} */
+
 .border-above-below {
   border-bottom: 1px solid black;
 }
 
+.border-above-below3 {
+  text-align: right;
+  padding-top: 15px;
+  border-bottom: 1px solid black;
+}
+
+.no-value-border-above-below3 {
+  text-align: right;
+  padding-top: 15px;
+  border-bottom: 1px solid red;
+}
+
+.no-value-border-above-below4 {
+  text-align: left;
+  padding-top: 15px;
+  border-bottom: 1px solid red;
+}
+
+.no-value-border-above-below {
+  color: black;
+  border-bottom: 1px solid red;
+}
+
 .border-above-below2 {
   border-bottom: 1px solid black;
+}
+
+.no-value-border-above-below2 {
+  color: black;
+  border-bottom: 1px solid red;
 }
 
 .text-center {
